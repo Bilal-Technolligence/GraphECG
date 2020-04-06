@@ -45,6 +45,8 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
+       // mRegistration = findViewById(R.id.btnRegister);
+
         mRegistration.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,7 +77,7 @@ public class RegisterActivity extends AppCompatActivity {
     private void setupUI(){
         mEmail = findViewById(R.id.txtEmail);
         mPassword = findViewById(R.id.txtPwd);
-        mRegistration = findViewById(R.id.btnLogin);
+        mRegistration = findViewById(R.id.btnRegister);
         mLoginLink = findViewById(R.id.lnkLogin);
         mFullName = findViewById(R.id.txtName);
     }
