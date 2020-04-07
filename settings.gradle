@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':achartengine-1.1.0'
 rootProject.name='Assignment2Fassih'

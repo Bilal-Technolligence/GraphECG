@@ -38,6 +38,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:19.1.0'
     implementation 'com.google.firebase:firebase-analytics:17.2.0'
     implementation files('libs/achartengine-1.1.0.jar')
+    implementation fileTree(dir: 'C:\\Users\\pakko\\Downloads\\6503963-896604190030239c73be35bf56b69daae9f99b06', include: ['*.aar', '*.jar'], exclude: [])
 
 }
 
